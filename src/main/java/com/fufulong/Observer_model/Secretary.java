@@ -8,7 +8,6 @@ import java.util.List;
 /**
  * 秘书类,通知者
  */
-@Data
 public class Secretary implements Subject{
     //通知者发出的信息
     private String action;
@@ -28,5 +27,21 @@ public class Secretary implements Subject{
     @Override
     public void tell(){
        observers.stream().forEach(item -> item.update());
+    }
+
+    @Override
+    public String getAction() {
+        return this.action;
+    }
+    public void  setAction(String action){
+        this.action = action;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

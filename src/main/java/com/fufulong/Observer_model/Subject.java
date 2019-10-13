@@ -7,4 +7,6 @@ public interface Subject {
     void subObserver(Observer observer);
     //告知通知者的方法
     void tell();
+    //得到通知的消息的抽象方法
+    public String getAction();
 }

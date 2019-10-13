@@ -1,6 +1,6 @@
 package com.fufulong.Observer_model;
 
-public class Test {
+public class Test1 {
     public static void main(String[] args) {
         Secretary secretary = new Secretary();
         secretary.setName("李秘书");
