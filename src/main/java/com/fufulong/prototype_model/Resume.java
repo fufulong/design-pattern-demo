@@ -13,7 +13,8 @@ public class Resume implements Cloneable {
         this.workExperience = new WorkExperience();
     }
 
-    //只有名字参数的构造方法,初始化name 的同时也要初始化 workExperience
+    //只有名字参数的构造方法,初始化name 的同时也要初始化 workExperience,为了防止下面的
+    //setWorkExperience(String timeArea, String company)方法中空指针以常规
     public Resume(String name) {
         this.name = name;
         this.workExperience = new WorkExperience();

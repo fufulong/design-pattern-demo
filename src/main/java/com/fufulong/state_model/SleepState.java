@@ -1,5 +1,7 @@
 package com.fufulong.state_model;
 
+import java.util.Stack;
+
 /**
  * 23点之后,上床睡觉的状态,注意边界值
  */
