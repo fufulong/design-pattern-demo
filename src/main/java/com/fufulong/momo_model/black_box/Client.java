@@ -1,5 +1,9 @@
 package com.fufulong.momo_model.black_box;
 
+import org.springframework.util.StringUtils;
+
+import java.util.ArrayList;
+
 public class Client {
     public static void main(String[] args) {
         // 创建角色
@@ -15,5 +19,6 @@ public class Client {
         //回档
         role.retreat();
         role.show();
+
     }
 }
